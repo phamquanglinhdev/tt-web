@@ -1,0 +1,334 @@
+.service-page .about-advertise .advertise_header .advertise_title {
+  color: #03ABD9;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal; }
+.service-page .about-advertise .advertise_header p {
+  font-size: 15px; }
+.service-page .about-advertise .advertise_content {
+  padding-bottom: 20px; }
+  .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs {
+    border: 1px solid #ddd;
+    padding: 0; }
+    .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li.active {
+      background: #006df0; }
+      .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li.active a {
+        color: #fff;
+        background: none; }
+      .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li.active:after {
+        color: white; }
+      .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li.active:hover {
+        background: #006df0; }
+        .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li.active:hover a {
+          color: #fff; }
+    .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li {
+      position: relative;
+      border-bottom: 1px solid #c1bbbb;
+      display: block;
+      width: 100%; }
+      .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li a {
+        color: #000;
+        background: #006df0;
+        background: none;
+        padding-right: 23px;
+        line-height: 40px;
+        font-size: 15px;
+        border: none;
+        margin-right: 0;
+        border-radius: 0;
+        text-decoration: none; }
+        .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li a:hover {
+          color: #000;
+          background: #006df0;
+          background: none;
+          margin-right: 0;
+          border: none;
+          border-radius: 0;
+          text-decoration: none; }
+        .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li a:active {
+          color: #fff;
+          background: #006df0;
+          background: none;
+          border: none;
+          margin-right: 0;
+          border-radius: 0;
+          text-decoration: none; }
+      .service-page .about-advertise .advertise_content .advertise_tabs #advertise-tabs li:after {
+        content: "\f345";
+        font-family: dashicons;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        line-height: 39px;
+        z-index: 0; }
+  .service-page .about-advertise .advertise_content .advertise_tabs .tab-content {
+    padding: 0 0 0 20px; }
+    .service-page .about-advertise .advertise_content .advertise_tabs .tab-content .tab-pane .tab-left img {
+      border: 1px solid #c1bbbb; }
+    @media (max-width: 768px) {
+      .service-page .about-advertise .advertise_content .advertise_tabs .tab-content .tab-pane .tab-right {
+        margin-top: 15px; } }
+    @media (max-width: 425px) {
+      .service-page .about-advertise .advertise_content .advertise_tabs .tab-content {
+        padding: 0; } }
+  .service-page .about-advertise .advertise_content .advertise_tabs .btn-3d {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    width: 100%;
+    padding: 18px 25px;
+    background-color: #F90;
+    box-shadow: 0 5px 0 #c77700; }
+    .service-page .about-advertise .advertise_content .advertise_tabs .btn-3d:hover {
+      color: #f7f7f7;
+      transform: translate(0px, 5px);
+      -webkit-transform: translate(0px, 5px);
+      background-color: #F90;
+      text-decoration: none;
+      box-shadow: 0 2px 0 #c77700; }
+  .service-page .about-advertise .advertise_content .advertise_tabs .tab-title {
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: left; }
+  .service-page .about-advertise .advertise_content .advertise_tabs .tab-list-detail .tab-item {
+    text-align: left;
+    position: relative;
+    padding-left: 21px;
+    font-size: 15px;
+    line-height: 26px; }
+    .service-page .about-advertise .advertise_content .advertise_tabs .tab-list-detail .tab-item:before {
+      content: "\f147";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-family: dashicons; }
+.service-page p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify; }
+.service-page .procedure {
+  background: #f6f6f6; }
+  .service-page .procedure .procedure_first-row {
+    margin-bottom: 30px; }
+  .service-page .procedure .procedure_second-row .procedure_step {
+    margin: 20px 0; }
+    .service-page .procedure .procedure_second-row .procedure_step .procedure_step-img {
+      padding: 0;
+      text-align: center; }
+    .service-page .procedure .procedure_second-row .procedure_step .procedure_step-text .procedure_step-title {
+      color: #006df0;
+      font-size: 23px;
+      line-height: 29px;
+      text-transform: uppercase; }
+    .service-page .procedure .procedure_second-row .procedure_step .procedure_step-text .procedure_step-content {
+      margin-top: 0; }
+  @media (max-width: 767px) {
+    .service-page .procedure .procedure_second-row .procedure_step .procedure_step-text {
+      text-align: center;
+      margin-top: 15px; } }
+.service-page .service-cost .service-cost_second-row .calculated-cost {
+  margin-top: 30px;
+  padding: 30px;
+  background: #f6f6f6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .wrapper-inner-text {
+    text-align: right; }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .wrapper-inner-text > span {
+      font-size: 23px;
+      line-height: 43px;
+      text-transform: uppercase; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge {
+    margin-top: 15px;
+    border: 1px solid #006df0; }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .noUi-connect {
+      background: #006df0; }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .noUi-handle {
+      border: 1px solid #006df0; }
+      .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .noUi-handle:after, .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .noUi-handle:before {
+        background: #006df0; }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .popover {
+      z-index: 3;
+      position: relative;
+      display: block !important;
+      top: -6px !important;
+      left: -87.5px !important;
+      margin: 0;
+      margin-top: 9px;
+      min-width: 175px; }
+      .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .popover .popover-content {
+        padding: 0;
+        position: relative; }
+        .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .popover .popover-content #popoverInput {
+          padding-right: 25px;
+          line-height: 30px;
+          text-align: right;
+          font-size: 19px;
+          color: #000000;
+          margin: 0;
+          border: none; }
+        .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row #slider-huge .popover .popover-content:after {
+          content: "\20AB";
+          position: absolute;
+          right: 10px;
+          top: 3px;
+          line-height: 40px;
+          font-size: 30px;
+          color: #000000;
+          margin: 0;
+          z-index: 3; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row .col-sm-3 {
+    padding: 0; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box { max-width: 100%;
+    text-align: left; }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box .cost-input_box-box {
+      position: relative;
+      width: 200px;
+      display: inline-block; }
+      .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box .cost-input_box-box input.cost-input {
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid #f6f6f6;
+        text-align: right;
+        font-size: 19px;
+        color: #000000;
+        height: 30px;
+        padding: 0 25px 0 5px;
+        line-height: 30px; }
+      @media (min-width: 992px) {
+        .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box .cost-input_box-box {
+          width: 150px !important; } }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box .currency-symbol {
+      font-size: 23px;
+      line-height: 43px;
+      color: #03ABD9;
+      margin: 0;
+      margin-left: 5px;
+      display: inline-block; }
+    .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box .tooltipster.dashicons {
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      right: 5px;
+      font-size: 20px;
+      margin-left: 10px;
+      line-height: 30px;
+      height: auto;
+      width: auto;
+      color: rgba(111, 105, 105, 0.58); }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_text {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    display: inline-block; }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_text {
+        margin-left: 2px; } }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .serivce-page_contact-us .serivce-page_contact-us-btn {
+  width: auto;
+  margin: 10px auto;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  background: #006df0;
+  color: #ffffff;
+  height: 37px;
+  font-size: 19px;
+  line-height: 35px;
+  display: inline-block;
+  padding: 2px 15px;
+}
+    .service-page .service-cost .service-cost_second-row .calculated-cost .serivce-page_contact-us .serivce-page_contact-us-btn > img {
+      float: left;
+      position: relative;
+      margin-right: 10px;
+      top: 8px;
+      left: 5px; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .serivce-page_contact-us .tooltipster {
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 60px;
+    height: auto;
+    width: auto;
+    color: rgba(111, 105, 105, 0.58); }
+@media (max-width: 768px) {
+  .service-page .service-cost .service-cost_second-row .calculated-cost .wrapper-inner-text > span {
+    font-size: 20px; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row .currency-symbol {
+    display: none; } }
+@media (max-width: 767px) {
+  .service-page .service-cost .service-cost_second-row .calculated-cost .wrapper-inner-text {
+    text-align: center; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .cost-input_box {
+    text-align: center; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .serivce-page_contact-us {
+    text-align: center; }
+  .service-page .service-cost .service-cost_second-row .calculated-cost .calculated-cost_budget-row .col-sm-3 {
+    visibility: hidden; } }
+@media (max-width: 425px) {
+  .service-page .service-cost .service-cost_second-row .cost-input_box .cost-input_box-box {
+    width: 160px !important; }
+  .service-page .service-cost .service-cost_second-row .cost-input_box .currency-symbol {
+    font-size: 20px; } }
+.service-page .details-procedure .details-procedure_second-row .table-fill {
+  background: white;
+  border-radius: 3px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite; }
+  .service-page .details-procedure .details-procedure_second-row .table-fill thead {
+    cursor: pointer; }
+  .service-page .details-procedure .details-procedure_second-row .table-fill th {
+    color: #fff;
+    background: #006df0;
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 10px 24px;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle; }
+  .service-page .details-procedure .details-procedure_second-row .table-fill tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color: #666B85;
+    font-size: 16px;
+    font-weight: normal; }
+    .service-page .details-procedure .details-procedure_second-row .table-fill tr img {
+      min-width: 18px;
+      min-height: 14px; }
+  .service-page .details-procedure .details-procedure_second-row .table-fill td {
+    background: #FFFFFF;
+    color: #000;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    border-right: 1px solid #ededed; }
+    .service-page .details-procedure .details-procedure_second-row .table-fill td.text-left {
+      width: 90%;
+      text-align: left; }
+    .service-page .details-procedure .details-procedure_second-row .table-fill td.text-center {
+      width: 10%;
+      text-align: center; }
+  .service-page .details-procedure .details-procedure_second-row .table-fill tr:nth-child(odd) td {
+    background: #f6f6f6; }
+
+/*# sourceMappingURL=adsvertise-v2.css.map */
+
+.col-xs-12.col-sm-3.text-center{
+  float: left;
+}
