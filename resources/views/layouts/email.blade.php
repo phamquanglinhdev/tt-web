@@ -1,3 +1,11 @@
+@php
+    $name=[
+        "",
+        "Hỏi đáp về Mail",
+        "Email Google Apps",
+
+    ];
+@endphp
 @extends("layouts.client")
 @section("content")
     <main id="main" class="site-main email-server-page">
@@ -7,12 +15,12 @@
             <div class="container intro-ct">
                 <div class="breadcrumb">
                     <!-- <h1 class="title-page">Email</h1> -->
-                    <h1 class="title-page"><li>Hỏi Đáp Email</li></h1>
+                    <h1 class="title-page"><li>{{$name[$current]}}</li></h1>
 
                     <ul>
                         <li><a href="{{route("index")}}">Trang chủ </a></li>
                         <li><a href="#">Email</a></li>
-                        <li>Hỏi Đáp Email</li>
+                        <li>{{$name[$current]}}</li>
                     </ul>
                 </div>
 

@@ -1,3 +1,13 @@
+@php
+    $name=[
+
+        "bct"=>"Bộ công thương",
+        "amp"=>"AMP",
+        "ggp"=>"Gói giải pháp",
+        "mgd"=>"Mẫu giao diện",
+        "qtw"=>"Quản trị website",
+    ];
+@endphp
 @extends("layouts.client")
 @section("content")
     <main id="main" class="site-main email-server-page">
@@ -7,12 +17,12 @@
             <div class="container intro-ct">
                 <div class="breadcrumb">
                     <!-- <h1 class="title-page">Thiết Kế Website</h1> -->
-                    <h1 class="title-page"><li>Bộ Công Thương</li></h1>
+                    <h1 class="title-page"><li>{{$name[$current]}}</li></h1>
 
                     <ul>
                         <li><a href="{{route("index")}}">Trang chủ </a></li>
                         <li><a href="#">Thiết Kế Website</a></li>
-                        <li>Bộ Công Thương</li>
+                        <li>{{$name[$current]}}</li>
                     </ul>
                 </div>
 

@@ -1,5 +1,5 @@
 @php
-    $current="1";
+    $current=1;
 @endphp
 @extends("layouts.domain")
 @section("contents")

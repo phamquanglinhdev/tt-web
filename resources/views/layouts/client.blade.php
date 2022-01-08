@@ -369,51 +369,38 @@
 
                         </li>
                         <li>
-                            <a href="noi-dung/hosting-doanh-nghiep-436.html">Hosting</a>
+                            <a href="{{route("hosting-doanh-nghiep")}}">Hosting</a>
                             <ul class="sub-menu ">
                                 <li>
-                                    <a href="noi-dung/hosting-doanh-nghiep-436.html"><span class="icon"><i
+                                    <a href="{{route("hosting-doanh-nghiep")}}"><span class="icon"><i
                                                 class="fa fa-h-square"></i></span><span class="title-a"><strong>Hosting Doanh Nghiệp</strong>Dành riêng cho các doanh nghiệp với hệ thống máy chủ mạnh mẻ. </span></a>
                                 </li>
                                 <li>
-                                    <a href="noi-dung/ssd-hosting-433.html"><span class="icon"><i
+                                    <a href="{{route("ssd-hosting")}}"><span class="icon"><i
                                                 class="fa fa-money"></i></span><span
                                             class="title-a"><strong>SSD Hosting</strong>Sử dụng SSD với tốc độ nhanh gấp 10 lần hosting thông thường </span></a>
                                 </li>
                                 <li>
-                                    <a href="noi-dung/super-hosting-437.html"><span class="icon"><i
+                                    <a href="{{route("super-hosting")}}"><span class="icon"><i
                                                 class="fa fa-tasks"></i></span><span class="title-a"><strong>Super Hosting</strong>Hosting dung lượng lớn dành cho các website có truy cập cao. </span></a>
                                 </li>
                                 <li>
-                                    <a href="noi-dung/reseller-hosting-439.html"><span class="icon"><i
+                                    <a href="{{route("reseller-hosting")}}"><span class="icon"><i
                                                 class="fa fa-sellsy"></i></span><span class="title-a"><strong>Reseller Hosting</strong>Chủ động định giá bán và khởi tạo dịch vụ cho khách hàng của mình dễ dàng. </span></a>
                                 </li>
                             </ul>
 
                         </li>
-                        <li>
-                            <a href="#">Máy Chủ</a>
-                            <ul class="sub-menu menu_nho">
-                                <li>
-                                    <a href="noi-dung/thue-may-chu-rieng-455.html"><span class="icon"><i
-                                                class="fa fa-tasks"></i></span><span class="title-a"><strong>Thuê Máy Chủ Riêng</strong>Cung cấp cho bạn những máy chủ với chi phí tốt nhất </span></a>
-                                </li>
-                                <li>
-                                    <a href="noi-dung/thue-dat-cho-may-chu-456.html"><span class="icon"><i
-                                                class="fa fa-tasks"></i></span><span class="title-a"><strong>Thuê Đặt Chổ Máy Chủ</strong>Cung cấp cho bạn website mễn phí với tính năng vượt trội - dể sử dụng </span></a>
-                                </li>
-                            </ul>
 
-                        </li>
                         <li>
-                            <a href="#">Marketing Online</a>
+                            <a href="{{route("marketing-google")}}">Marketing Online</a>
                             <ul class="sub-menu menu_nho">
                                 <li>
-                                    <a href="noi-dung/google-adwords-458.html"><span class="icon"><i
+                                    <a href="{{route("marketing-google")}}"><span class="icon"><i
                                                 class="fa fa-google"></i></span><span class="title-a"><strong>Google Adwords</strong>Đưa từ khoá lên Google một cách nhanh chóng sau 05 phút. </span></a>
                                 </li>
                                 <li>
-                                    <a href="noi-dung/quang-cao-facebook-461.html"><span class="icon"><i
+                                    <a href="{{route("marketing-facebook")}}"><span class="icon"><i
                                                 class="fa fa-facebook"></i></span><span class="title-a"><strong>Quảng Cáo Facebook</strong>Quảng cáo trên mạng xã hội facebook </span></a>
                                 </li>
                             </ul>

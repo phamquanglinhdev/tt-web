@@ -50,3 +50,22 @@ Route::get('/email/app.html', function () {
     return view('client.email.app');
 })->name("email-app");
 
+Route::get('/hosting/hosting-doanh-nghiep.html', function () {
+    return view('client.hosting.hosting-doanh-nghiep');
+})->name("hosting-doanh-nghiep");
+Route::get('/hosting/ssd-hosting.html', function () {
+    return view('client.hosting.ssd-hosting');
+})->name("ssd-hosting");
+Route::get('/hosting/super-hosting.html', function () {
+    return view('client.hosting.super-hosting');
+})->name("super-hosting");
+Route::get('/hosting/reseller-hosting.html', function () {
+    return view('client.hosting.reseller-hosting');
+})->name("reseller-hosting");
+
+Route::get('/marketing/google.html', function () {
+    return view('client.marketing.google');
+})->name("marketing-google");
+Route::get('/marketing/facebook.html', function () {
+    return view('client.marketing.facebook');
+})->name("marketing-facebook");
